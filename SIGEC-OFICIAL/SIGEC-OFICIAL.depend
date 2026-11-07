@@ -1,5 +1,7 @@
 # depslib dependency file v1.0
-1793991192 source:c:\users\cliente\desktop\sigec-oficial\main.c
+1794076273 source:c:\users\cliente\desktop\sigec-oficial\main.c
 	<stdio.h>
 	<stdlib.h>
+	<locale.h>
+	<ctype.h>
 
