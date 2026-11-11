@@ -1,0 +1,50 @@
+
+#include <stdio.h>
+
+int main() {
+    char nome[50], endereco[100], telefone[12];
+    int pessoas;
+    char continuar;
+    FILE *arquivo;
+
+    do {
+        printf("\n===== CADASTRO DE FAMILIAS =====\n");
+
+        printf("Nome do responsavel: ");
+        scanf(" %49[^\n]", nome);
+
+        printf("Endereco: ");
+        scanf(" %99[^\n]", endereco);
+
+        printf("Telefone (11 digitos): ");
+        scanf(" %11[^\n]", telefone);
+
+        printf("Quantidade de pessoas: ");
+        scanf("%d", &pessoas);
+
+        arquivo = fopen("familias.txt", "a");
+
+        if (arquivo == NULL) {
+            printf("\nErro ao salvar cadastro!\n");
+            return 1;
+        }
+
+        fprintf(arquivo, "Nome: %s\n", nome);
+        fprintf(arquivo, "Endereco: %s\n", endereco);
+        fprintf(arquivo, "Telefone: %s\n", telefone);
+        fprintf(arquivo, "Pessoas: %d\n", pessoas);
+        fprintf(arquivo, "------------------------\n");
+
+        fclose(arquivo);
+
+        printf("\nFamilia cadastrada com sucesso!\n");
+
+        printf("\nDeseja cadastrar outra familia? (S/N): ");
+        scanf(" %c", &continuar);
+
+    } while (continuar == 'S' || continuar == 's');
+
+    printf("\nCadastros finalizados!\n");
+
+    return 0;
+}
