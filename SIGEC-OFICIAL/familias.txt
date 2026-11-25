@@ -1,0 +1,70 @@
+Nome: Gabriel Andrade Lima
+Endereco: Rua Jose Camargo, n§72
+Telefone: 1194323487
+Pessoas: 5
+------------------------
+Nome: Gabriel
+Endereco: Rua Alvares Machado, N767
+Telefone: 11987569896
+Pessoas: 5
+------------------------
+Nome: Maria
+Endereco: rua 1
+Telefone: 11999999999
+Pessoas: 3
+------------------------
+Nome: Cleiton Rasta
+Endereco: Rua Bobson da Silva, 40
+Telefone: 19900001111
+Pessoas: 2
+------------------------
+Nome: Andre
+Endereco: Rua 2
+Telefone: 11999999999
+Pessoas: 9
+------------------------
+Nome: Anderson Tavares
+Endereco: rua dos malucos
+Telefone: 12345678910
+Pessoas: 2
+------------------------
+Nome: Roger
+Endereco: Rua 3
+Telefone: 11912345678
+Pessoas: 5
+------------------------
+Nome: Cleber silva sauro
+Endereco: Rua ninguem, 67
+Telefone: 11111111111
+Pessoas: 20
+------------------------
+Nome: Jose
+Endereco: Ruq dois, N10
+Telefone: 11942144858
+Pessoas: 4
+------------------------
+Nome: Maria
+Endereco: Rua sete, N79
+Telefone: 11997788678
+Pessoas: 5
+------------------------
+Nome: Luan
+Endereco: Rua das Tangerinas
+Telefone: 45543333333
+Pessoas: 10000000
+------------------------
+Nome: Gustavo
+Endereco: Rua plataforma 34
+Telefone: 99999999999
+Pessoas: 45
+------------------------
+Nome: Jose
+Endereco: Rua Soares, N76
+Telefone: 11987654567
+Pessoas: 7
+------------------------
+Nome: fabio
+Endereco: rua 7
+Telefone: 11932343434
+Pessoas: 2
+------------------------
